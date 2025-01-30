@@ -1,0 +1,48 @@
+p{
+    color: rgb(70, 46, 70) ;
+    font-size: 25px;
+    font-weight: bold;
+    font-style:oblique;
+    font-family:'Dancing Script', cusive;
+
+}
+a{
+    margin-right: 100px;
+}
+header{
+    background-color:rgb(70, 46, 70);
+    height: 160px;
+    display: flex; /* Flexbox layout */
+    flex-direction: colun; /* Stack items vertically */
+    justify-content: center; /* Center items in the header */
+  
+    
+    
+}
+
+*{
+    
+    margin: auto;
+}
+body{
+    background-color:rgb(251, 209, 98);
+}
+button{
+    padding: 25px;
+    width: 200px;
+    background-color:rgb(251, 209, 98);
+ font-weight: bold;
+ border-radius: 5px;
+
+ margin: 10px;
+ 
+}
+img{
+    height: 150px;
+    width: 200px;
+    
+    margin-right: 0px;
+}
+button:hover {
+    background-color: #e0a900;  /* Button hover effect */
+  }
